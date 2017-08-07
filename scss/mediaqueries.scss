@@ -23,20 +23,11 @@
       height: 40px;
       padding: 5px !important;
     }
+    ul{
+      top: 42px !important;
+    }
   }
 
-  fieldset{
-    padding: 10px !important;
-    legend{
-      margin: 0 !important;
-      height: 30px;
-      line-height: 30px;
-    font-size: 16px;
-    }
-    input{
-      padding: 5px !important;
-    }
-  }
   #container1{
     article{
       top: 20vh;
@@ -45,8 +36,11 @@
       line-height: 80px;
     }
   }
+
   #container2{
-    padding: 10px !important;
+    article{
+      padding: 30px !important;
+    }
     p{
       padding: 15px !important;
     }
@@ -63,6 +57,7 @@
       margin-bottom: 15px !important;
     }
   }
+
   #container3{
     .age{
       width: 60px;
@@ -72,6 +67,19 @@
       padding-bottom: 15px !important;
     }
   }
+  fieldset{
+    padding: 10px !important;
+    legend{
+      margin: 0 !important;
+      height: 30px;
+      line-height: 30px;
+    font-size: 16px;
+    }
+    input{
+      padding: 5px !important;
+    }
+  }
+
   footer{
     article h2{
       padding: 10px !important;
@@ -93,15 +101,337 @@
 // TABLET FROM 768PX TO 991XP
 
 @media only screen and (min-width: 768px)and (max-width: 991px){
+  h1{
+    font-size: 28px;
+    margin: 0;
+    line-height: 50px;
+  }
+  h2{
+    font-size: 34px;
+  }
+  header{
+
+    .logoRing{
+      width: 40px;
+      margin: 5px !important;
+      margin-left: -25px;
+
+    }
+    figcaption{
+      height: 45px;
+    }
+    i{
+      height: 45px;
+      padding: 5px !important;
+      line-height: 40px !important;
+    }
+    ul{
+      top: 52px !important;
+    }
+  }
+  #container1{
+    article{
+      top: 30vh;
+    }
+    h2{
+      line-height: 140px;
+    }
+  }
+
+  #container2{
+    article{
+      padding: 30px !important;
+    }
+    p{
+      font-size: 18px;
+      line-height: 40px;
+      padding: 15px !important;
+    }
+    ul{
+      padding-top: 15px !important;
+    }
+    ul li{
+      font-size: 18px;
+      list-style-type: none;
+      padding-left: 20px !important;
+    }
+    iframe{
+      width: 500px;
+      height: 500px;
+      margin-bottom: 15px !important;
+    }
+  }
+
+
+  #container3{
+  .wrap_fieldset{
+    margin-left: 16% !important;
+  }
+  fieldset{
+    padding: 10px !important;
+    legend{
+      margin: 0 !important;
+      height: 30px;
+      line-height: 30px;
+      font-size: 24px;
+    }
+    input{
+      padding: 5px !important;
+    }
+  }
 }
-
-
+  footer{
+    article h2{
+      padding: 10px !important;
+    }
+    fieldset{
+      margin: 10% !important;
+    }
+    address p{
+      margin-top: 15px !important;
+      margin-bottom: 25px !important;
+      font-size: 16px !important;
+    }
+    fieldset legend{
+      margin-bottom: 25px !important;
+      font-size: 24px !important;
+    }
+    div p {
+      font-size: 16px !important;
+    }
+    section{
+      margin-top: 30px !important;
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+}
 // DESKTOP FROM 992PX TO 1199XP
 
 @media only screen and (min-width: 992px)and (max-width: 1199px){
+
+  h1{
+    font-size: 28px;
+    margin: 0;
+    line-height: 50px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  header{
+
+    .logoRing{
+      width: 40px;
+      margin: 5px !important;
+      margin-left: -25px;
+
+    }
+    figcaption{
+      height: 45px;
+    }
+    i{
+      height: 45px;
+      padding: 5px !important;
+      line-height: 40px !important;
+    }
+    ul{
+      top: 52px !important;
+    }
+  }
+
+  #container1{
+    article{
+      top: 20vh;
+    }
+    h2{
+      line-height: 180px;
+    }
+  }
+
+  #container2{
+    article{
+      padding: 30px !important;
+    }
+    p{
+      font-size: 18px;
+      line-height: 40px;
+      padding: 15px !important;
+    }
+    ul{
+      padding-top: 15px !important;
+    }
+    ul li{
+      font-size: 18px;
+      list-style-type: none;
+      padding-left: 20px !important;
+    }
+    iframe{
+      width: 500px;
+      height: 500px;
+      margin-bottom: 15px !important;
+    }
+  }
+
+  #container3{
+  .wrap_fieldset{
+    margin-left: 16% !important;
+  }
+  fieldset{
+    padding: 10px !important;
+    legend{
+      margin: 0 !important;
+      height: 30px;
+      line-height: 30px;
+      font-size: 24px;
+    }
+    input{
+      padding: 5px !important;
+    }
+  }
+}
+
+  footer{
+    article h2{
+      padding: 10px !important;
+    }
+    fieldset{
+      margin:5% 10% !important;
+
+    }
+    address p{
+      margin-top: 15px !important;
+      margin-bottom: 25px !important;
+      font-size: 20px !important;
+    }
+    fieldset legend{
+      margin-bottom: 25px !important;
+      font-size: 28px !important;
+    }
+    div p {
+      font-size: 20px !important;
+    }
+    section{
+      margin-top: 30px !important;
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+
 }
 
 // TV MORE THAN 1200PX
 
 @media only screen and (min-width: 1200px){
+
+
+  h1{
+    font-size: 28px;
+    margin: 0;
+    line-height: 50px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  header{
+
+    .logoRing{
+      width: 40px;
+      margin: 5px !important;
+      margin-left: -25px;
+
+    }
+    figcaption{
+      height: 45px;
+    }
+    i{
+      height: 45px;
+      padding: 5px !important;
+      line-height: 40px !important;
+    }
+    ul{
+      top: 52px !important;
+    }
+  }
+
+
+  #container1{
+    article{
+      top: 7vh;
+    }
+    h2{
+      line-height: 180px;
+    }
+  }
+
+  #container2{
+    article{
+      padding: 30px !important;
+    }
+    p{
+      font-size: 18px;
+      line-height: 40px;
+      padding: 15px !important;
+    }
+    ul{
+      padding-top: 15px !important;
+    }
+    ul li{
+      font-size: 18px;
+      list-style-type: none;
+      padding-left: 20px !important;
+    }
+    iframe{
+      width: 500px;
+      height: 500px;
+      margin-bottom: 15px !important;
+    }
+  }
+
+  #container3{
+  .wrap_fieldset{
+    margin-left: 25% !important;
+  }
+  fieldset{
+    padding: 10px !important;
+    legend{
+      margin: 0 !important;
+      height: 30px;
+      line-height: 30px;
+      font-size: 24px;
+    }
+    input{
+      padding: 5px !important;
+    }
+  }
+}
+
+  footer{
+    article h2{
+      padding: 10px !important;
+    }
+    fieldset{
+      margin:5% 20% !important;
+
+    }
+    address p{
+      margin-top: 15px !important;
+      margin-bottom: 25px !important;
+      font-size: 22px !important;
+    }
+    fieldset legend{
+      margin-bottom: 25px !important;
+      font-size: 30px !important;
+    }
+    div p {
+      font-size: 22px !important;
+    }
+    section{
+      margin-top: 30px !important;
+      p{
+        font-size: 16px;
+      }
+    }
+  }
 }

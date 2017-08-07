@@ -11,15 +11,18 @@ html, body {
   overflow-y: scroll; }
 
 header {
+  background-color: #fff;
   border-bottom: 1px solid lightgrey;
   -webkit-box-shadow: 3px 3px 3px lightgrey;
-          box-shadow: 3px 3px 3px lightgrey;
-  margin-top: 2px !important; }
+          box-shadow: 3px 3px 3px lightgrey; }
+  header figcaption {
+    padding-left: 14px !important; }
+  header i {
+    right: 18px; }
   header nav {
     width: 50px !important; }
   header ul {
     position: absolute;
-    top: 42px !important;
     right: -45px !important;
     left: inherit !important;
     -webkit-box-shadow: inherit !important;

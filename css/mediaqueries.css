@@ -13,6 +13,30 @@
   header i {
     height: 40px;
     padding: 5px !important; }
+  header ul {
+    top: 42px !important; }
+  #container1 article {
+    top: 20vh; }
+  #container1 h2 {
+    line-height: 80px; }
+  #container2 article {
+    padding: 30px !important; }
+  #container2 p {
+    padding: 15px !important; }
+  #container2 ul {
+    padding-top: 15px !important; }
+  #container2 ul li {
+    list-style-type: none;
+    padding-left: 20px !important; }
+  #container2 iframe {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px !important; }
+  #container3 .age {
+    width: 60px; }
+  #container3 h2 {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important; }
   fieldset {
     padding: 10px !important; }
     fieldset legend {
@@ -22,28 +46,6 @@
       font-size: 16px; }
     fieldset input {
       padding: 5px !important; }
-  #container1 article {
-    top: 20vh; }
-  #container1 h2 {
-    line-height: 80px; }
-  #container2 {
-    padding: 10px !important; }
-    #container2 p {
-      padding: 15px !important; }
-    #container2 ul {
-      padding-top: 15px !important; }
-    #container2 ul li {
-      list-style-type: none;
-      padding-left: 20px !important; }
-    #container2 iframe {
-      width: 250px;
-      height: 250px;
-      margin-bottom: 15px !important; }
-  #container3 .age {
-    width: 60px; }
-  #container3 h2 {
-    padding-top: 15px !important;
-    padding-bottom: 15px !important; }
   footer article h2 {
     padding: 10px !important; }
   footer address {
@@ -54,3 +56,207 @@
     margin-top: 30px !important; }
     footer section p {
       font-size: 12px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 28px;
+    margin: 0;
+    line-height: 50px; }
+  h2 {
+    font-size: 34px; }
+  header .logoRing {
+    width: 40px;
+    margin: 5px !important;
+    margin-left: -25px; }
+  header figcaption {
+    height: 45px; }
+  header i {
+    height: 45px;
+    padding: 5px !important;
+    line-height: 40px !important; }
+  header ul {
+    top: 52px !important; }
+  #container1 article {
+    top: 30vh; }
+  #container1 h2 {
+    line-height: 140px; }
+  #container2 article {
+    padding: 30px !important; }
+  #container2 p {
+    font-size: 18px;
+    line-height: 40px;
+    padding: 15px !important; }
+  #container2 ul {
+    padding-top: 15px !important; }
+  #container2 ul li {
+    font-size: 18px;
+    list-style-type: none;
+    padding-left: 20px !important; }
+  #container2 iframe {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 15px !important; }
+  #container3 .wrap_fieldset {
+    margin-left: 16% !important; }
+  #container3 fieldset {
+    padding: 10px !important; }
+    #container3 fieldset legend {
+      margin: 0 !important;
+      height: 30px;
+      line-height: 30px;
+      font-size: 24px; }
+    #container3 fieldset input {
+      padding: 5px !important; }
+  footer article h2 {
+    padding: 10px !important; }
+  footer fieldset {
+    margin: 10% !important; }
+  footer address p {
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+    font-size: 16px !important; }
+  footer fieldset legend {
+    margin-bottom: 25px !important;
+    font-size: 24px !important; }
+  footer div p {
+    font-size: 16px !important; }
+  footer section {
+    margin-top: 30px !important; }
+    footer section p {
+      font-size: 14px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    font-size: 28px;
+    margin: 0;
+    line-height: 50px; }
+  h2 {
+    font-size: 40px; }
+  header .logoRing {
+    width: 40px;
+    margin: 5px !important;
+    margin-left: -25px; }
+  header figcaption {
+    height: 45px; }
+  header i {
+    height: 45px;
+    padding: 5px !important;
+    line-height: 40px !important; }
+  header ul {
+    top: 52px !important; }
+  #container1 article {
+    top: 20vh; }
+  #container1 h2 {
+    line-height: 180px; }
+  #container2 article {
+    padding: 30px !important; }
+  #container2 p {
+    font-size: 18px;
+    line-height: 40px;
+    padding: 15px !important; }
+  #container2 ul {
+    padding-top: 15px !important; }
+  #container2 ul li {
+    font-size: 18px;
+    list-style-type: none;
+    padding-left: 20px !important; }
+  #container2 iframe {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 15px !important; }
+  #container3 .wrap_fieldset {
+    margin-left: 16% !important; }
+  #container3 fieldset {
+    padding: 10px !important; }
+    #container3 fieldset legend {
+      margin: 0 !important;
+      height: 30px;
+      line-height: 30px;
+      font-size: 24px; }
+    #container3 fieldset input {
+      padding: 5px !important; }
+  footer article h2 {
+    padding: 10px !important; }
+  footer fieldset {
+    margin: 5% 10% !important; }
+  footer address p {
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+    font-size: 20px !important; }
+  footer fieldset legend {
+    margin-bottom: 25px !important;
+    font-size: 28px !important; }
+  footer div p {
+    font-size: 20px !important; }
+  footer section {
+    margin-top: 30px !important; }
+    footer section p {
+      font-size: 16px; } }
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 28px;
+    margin: 0;
+    line-height: 50px; }
+  h2 {
+    font-size: 40px; }
+  header .logoRing {
+    width: 40px;
+    margin: 5px !important;
+    margin-left: -25px; }
+  header figcaption {
+    height: 45px; }
+  header i {
+    height: 45px;
+    padding: 5px !important;
+    line-height: 40px !important; }
+  header ul {
+    top: 52px !important; }
+  #container1 article {
+    top: 7vh; }
+  #container1 h2 {
+    line-height: 180px; }
+  #container2 article {
+    padding: 30px !important; }
+  #container2 p {
+    font-size: 18px;
+    line-height: 40px;
+    padding: 15px !important; }
+  #container2 ul {
+    padding-top: 15px !important; }
+  #container2 ul li {
+    font-size: 18px;
+    list-style-type: none;
+    padding-left: 20px !important; }
+  #container2 iframe {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 15px !important; }
+  #container3 .wrap_fieldset {
+    margin-left: 25% !important; }
+  #container3 fieldset {
+    padding: 10px !important; }
+    #container3 fieldset legend {
+      margin: 0 !important;
+      height: 30px;
+      line-height: 30px;
+      font-size: 24px; }
+    #container3 fieldset input {
+      padding: 5px !important; }
+  footer article h2 {
+    padding: 10px !important; }
+  footer fieldset {
+    margin: 5% 20% !important; }
+  footer address p {
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+    font-size: 22px !important; }
+  footer fieldset legend {
+    margin-bottom: 25px !important;
+    font-size: 30px !important; }
+  footer div p {
+    font-size: 22px !important; }
+  footer section {
+    margin-top: 30px !important; }
+    footer section p {
+      font-size: 16px; } }

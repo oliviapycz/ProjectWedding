@@ -16,20 +16,24 @@ html, body{
 
 // HEADER
 header{
+  background-color: #fff;
   border-bottom: 1px solid lightgrey;
   box-shadow: 3px 3px 3px lightgrey;
-  margin-top: 2px !important;
+  // margin-top: 2px !important;
 
-  // .menu_hamburger{
-  //   margin-top: 10px;
-  //   position: relative;
-  // }
+
+
+  figcaption {
+    padding-left: 14px !important;
+  }
+  i{
+    right: 18px;
+  }
   nav{
     width: 50px !important;
   }
   ul{
     position: absolute;
-    top: 42px !important;
     right: -45px !important;
     left: inherit !important;
     box-shadow: inherit !important;
