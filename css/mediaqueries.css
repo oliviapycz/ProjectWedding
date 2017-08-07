@@ -1,0 +1,56 @@
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 18px;
+    margin: 0;
+    line-height: 40px; }
+  h2 {
+    font-size: 25px; }
+  header .logoRing {
+    width: 30px;
+    margin: 5px !important; }
+  header figcaption {
+    height: 40px; }
+  header i {
+    height: 40px;
+    padding: 5px !important; }
+  fieldset {
+    padding: 10px !important; }
+    fieldset legend {
+      margin: 0 !important;
+      height: 30px;
+      line-height: 30px;
+      font-size: 16px; }
+    fieldset input {
+      padding: 5px !important; }
+  #container1 article {
+    top: 20vh; }
+  #container1 h2 {
+    line-height: 80px; }
+  #container2 {
+    padding: 10px !important; }
+    #container2 p {
+      padding: 15px !important; }
+    #container2 ul {
+      padding-top: 15px !important; }
+    #container2 ul li {
+      list-style-type: none;
+      padding-left: 20px !important; }
+    #container2 iframe {
+      width: 250px;
+      height: 250px;
+      margin-bottom: 15px !important; }
+  #container3 .age {
+    width: 60px; }
+  #container3 h2 {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important; }
+  footer article h2 {
+    padding: 10px !important; }
+  footer address {
+    margin-bottom: 25px !important; }
+  footer fieldset legend {
+    margin-bottom: 5px !important; }
+  footer section {
+    margin-top: 30px !important; }
+    footer section p {
+      font-size: 12px; } }

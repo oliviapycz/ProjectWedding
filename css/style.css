@@ -1,0 +1,89 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+#smoothscroll {
+  scroll-behavior: smooth;
+  overflow-y: scroll; }
+
+header {
+  border-bottom: 1px solid lightgrey;
+  -webkit-box-shadow: 3px 3px 3px lightgrey;
+          box-shadow: 3px 3px 3px lightgrey;
+  margin-top: 2px !important; }
+  header nav {
+    width: 50px !important; }
+  header ul {
+    position: absolute;
+    top: 42px !important;
+    right: -45px !important;
+    left: inherit !important;
+    -webkit-box-shadow: inherit !important;
+            box-shadow: inherit !important;
+    padding-left: 2px !important;
+    -webkit-box-shadow: 3px 3px 3px lightgrey !important;
+            box-shadow: 3px 3px 3px lightgrey !important;
+    border-top: none !important; }
+
+#container1 {
+  position: relative; }
+  #container1 article {
+    position: relative; }
+  #container1 h2 {
+    color: black; }
+
+#container1::after {
+  background: url(../images/wedding-bouquet-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1; }
+
+#container2 {
+  min-height: 100vh; }
+  #container2 h2 {
+    border-bottom: 2px solid yellow; }
+
+#container3 {
+  min-height: 100vh;
+  position: relative;
+  color: black; }
+  #container3 legend {
+    color: black; }
+
+#container3::after {
+  background: url(../images/wedding.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.6;
+  position: absolute;
+  z-index: -1; }
+
+footer {
+  background-color: black;
+  color: #fff; }
+  footer fieldset legend {
+    color: #fff; }
+
+p {
+  font-family: 'Droid Serif', cursive !important; }
+
+h1, h2, legend {
+  font-family: 'Dancing Script', cursive !important; }

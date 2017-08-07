@@ -1,0 +1,107 @@
+
+// SMARTPHONE UP TO 767XP
+
+@media only screen and (max-width: 767px){
+  h1{
+    font-size: 18px;
+    margin: 0;
+    line-height: 40px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  header{
+    .logoRing{
+      width: 30px;
+      margin: 5px !important;
+
+    }
+    figcaption{
+      height: 40px;
+    }
+    i{
+      height: 40px;
+      padding: 5px !important;
+    }
+  }
+
+  fieldset{
+    padding: 10px !important;
+    legend{
+      margin: 0 !important;
+      height: 30px;
+      line-height: 30px;
+    font-size: 16px;
+    }
+    input{
+      padding: 5px !important;
+    }
+  }
+  #container1{
+    article{
+      top: 20vh;
+    }
+    h2{
+      line-height: 80px;
+    }
+  }
+  #container2{
+    padding: 10px !important;
+    p{
+      padding: 15px !important;
+    }
+    ul{
+      padding-top: 15px !important;
+    }
+    ul li{
+      list-style-type: none;
+      padding-left: 20px !important;
+    }
+    iframe{
+      width: 250px;
+      height: 250px;
+      margin-bottom: 15px !important;
+    }
+  }
+  #container3{
+    .age{
+      width: 60px;
+    }
+    h2{
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+    }
+  }
+  footer{
+    article h2{
+      padding: 10px !important;
+    }
+    address{
+      margin-bottom: 25px !important;
+    }
+    fieldset legend{
+      margin-bottom: 5px !important;
+    }
+    section{
+      margin-top: 30px !important;
+      p{
+        font-size: 12px;
+      }
+    }
+  }
+}
+// TABLET FROM 768PX TO 991XP
+
+@media only screen and (min-width: 768px)and (max-width: 991px){
+}
+
+
+// DESKTOP FROM 992PX TO 1199XP
+
+@media only screen and (min-width: 992px)and (max-width: 1199px){
+}
+
+// TV MORE THAN 1200PX
+
+@media only screen and (min-width: 1200px){
+}

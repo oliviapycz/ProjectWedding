@@ -1,0 +1,42 @@
+// RACCOURCI
+
+.allPageHeight{
+height: 100vh;
+}
+.flex{
+display: flex;
+}
+.flexColumn{
+display: flex;
+flex-direction: column;
+}
+.justifyContentAround{
+justify-content: space-around;
+}
+.justifyContentBetween{
+justify-content: space-between;
+}
+.alignContentCenter{
+align-content: center;
+}
+.alignSelfCenter{
+align-self: center;
+}
+.alignItemCenter{
+align-items: center;
+}
+.textCenter{
+text-align: center;
+}
+.textRight{
+text-align: right;
+}
+.textJustify{
+text-align: justify;
+}
+.verticalAlignMiddle{
+vertical-align: middle;
+}
+.positionRelative{
+position: relative;
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html class="fa-events-icons-ready"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/raccourci.css">
+    <title></title>
+  <link href="https://use.fontawesome.com/d2bc0d5b6e.css" media="all" rel="stylesheet"></head>
+  <body class="container-fluid" id="smoothscroll">
+    <!--- HEADER ------->
+    <header id="header" class="row">
+      <figcaption class="col-xs-2">
+        <img class="logoRing" src="images/wedding-rings-icon.svg" alt="logo-ring">
+      </figcaption>
+
+      <h1 class="col-xs-8 textCenter"> Delphine&amp;Mathieu's Wedding</h1>
+
+      <i class="col-xs-2 fa fa-bars fa-2x menu_hamburger textRight"></i>
+
+      <nav class="nav_hamburger">
+        <ul class="dropdown-menu">
+          <li><a href="#container2">Le lieu</a></li>
+          <li><a href="#container3">S'inscrire</a></li>
+          <li><a href="#container4">Liste de Mariage</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#footer">Nous Contacter</a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <!--- END HEADER ------->
+
+    <!--- MAIN ------->
+    <main>
+      <!-- container1 -->
+      <section id="container1" class="allPageHeight ">
+        <article class="textCenter">
+          <h2>Vous êtes convié.e.s<br>à l'union de Mathieu et Delphine<br>samedi 1er Septembre 2018</h2>
+          <a href="#container2"><i class="col-xs-12 fa fa-angle-down fa-3x textCenter"></i></a>
+        </article>
+      </section>
+
+      <!-- container2 -->
+      <section id="container2" class=" row">
+        <article class="row">
+          <h2 class="col-xs-12">Le lieu</h2>
+          <p class="col-xs-12 textJustify">Vous êtes attendu.e.s au Chateau de Vaux le Vicomte à partir de 17h pour une réception suivi d'une cérémonie laïque, d'un dîner et d'une soirée dansante.</p>
+          <div class="col-xs-12 textCenter">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.94722682385!2d2.27751689315816!3d48.858837739154595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1501940115299" style="border:2px solid lightgrey" allowfullscreen="" width="60vh" height="" frameborder="0"></iframe>
+          </div>
+
+
+
+          <!-- API key : AIzaSyC-0parPMKCNrLyMYNebm_AJzmEnOcR5VE -->
+          <h2 class="col-xs-12">Logements à proximité</h2>
+          <ul class="col-xs-12">
+            <li>6km-<a href="#">maison d'hôtes</a></li>
+            <li>9km-<a href="#">maison d'hôtes</a></li>
+            <li>12km-<a href="#">maison d'hôtes</a></li>
+          </ul>
+
+        </article>
+
+      </section>
+
+      <!-- container3 -->
+      <section id="container3" class="">
+        <h2 class="col-xs-12 textCenter">A remplir avant le 01 mars 2018</h2>
+        <form class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3" action="" method="post">
+          <fieldset>
+            <legend>Inscription</legend>
+
+            <div class="form-group">
+              <label for="name"></label>
+              <input class="form-control" name="name" value="" placeholder="votre nom" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="firstname"></label>
+              <input class="form-control" name="firstname" value="" placeholder="votre prénom" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="email"></label>
+              <input class="form-control" name="email" value="" placeholder="votre email" type="email">
+            </div>
+
+            <div class="form-group">
+              <label for="tel"></label>
+              <input class="form-control" id="tel" name="tel" value="" placeholder="votre telephone 0600000000" type="tel">
+            </div>
+
+            <fieldset>
+              <legend>Présence:</legend>
+                <section class="form-group">
+                      <input class="will_be_present" name="presence" value="" type="radio">Je viendrais avec plaisir <br>
+                      <input class="wont_be_present" name="presence" value="" type="radio">Je ne pourrais pas venir
+                </section>
+            </fieldset>
+
+            <fieldset class="answer_present" style="display: none;">
+              <legend>Je viendrais:</legend>
+              <div class="form-group">
+                    <input class="alone" name="with" value="" type="radio">Seul.e <br>
+                    <input class="with_someone" name="with" value="" type="radio">Accompagné.e
+              </div>
+            </fieldset>
+
+            <fieldset class="answer_with_someone" style="display: none;">
+              <legend>Je viendrais avec:</legend>
+                <div class="form-group">
+                  <input class="form-control" name="" value="" placeholder="Nom" type="text">
+                  <input class="form-control" name="" value="" placeholder="Prénom" type="text">
+                </div>
+            </fieldset>
+
+            <fieldset class="answer_with_someone" style="display: none;">
+              <legend>Je viendrais avec des enfants:</legend>
+                <div class="form-group">
+                  <input class="with_child" name="child" value="" type="radio">Oui
+                  <input class="without_child" name="child" value="" type="radio">Non
+                </div>
+            </fieldset>
+
+            <fieldset class="answer_child" style="display: none;">
+              <legend>Enfants:</legend>
+                <div class="form-group">
+                  <input name="" value="" placeholder="Prénom" type="text">
+                  <input class="age" min="1" max="17" name="" value="" placeholder="age" type="number">
+                  <button class="addchild" type="button" name="button">Ajouter un enfant</button>
+                </div>
+
+                <section class="add_a_child" style="display: none;">
+                  <input name="" value="" placeholder="Prénom" type="text">
+                  <input class="age" min="1" max="17" name="" value="" placeholder="age" type="number">
+                  <button class="addchild1" type="button" name="button">Ajouter un enfant</button>
+                </section>
+
+                <section class="add_a_child1" style="display: none;">
+                  <input name="" value="" placeholder="Prénom" type="text">
+                  <input class="age" min="1" max="17" name="" value="" placeholder="age" type="number">
+                  <button class="addchild2" type="button" name="button">Ajouter un enfant</button>
+                </section>
+
+                <section class="add_a_child2" style="display: none;">
+                  <input name="" value="" placeholder="Prénom" type="text">
+                  <input class="age" min="1" max="17" name="" value="" placeholder="age" type="number">
+                </section>
+            </fieldset>
+
+            <div class="form-group">
+            <input class="form-control col-xs-6 " name="" value="Envoyer" type="submit">
+            </div>
+          </fieldset>
+        </form>
+      </section>
+
+      <!-- container4 -->
+      <section id="container4" class="allPageHeight greenbox">
+
+      </section>
+
+
+    </main>
+    <!--- END MAIN ------->
+
+    <!---FOOTER ------->
+    <footer id="footer">
+      <article>
+        <h2>Nous Contacter</h2>
+        <fieldset>
+          <legend>Adresse</legend>
+          <address class="col-xs-12 textCenter">
+            Mathieu Piron &amp; Delphine Jussieu<br>
+            15 rue des Pignons<br>
+            75015 Paris
+          </address>
+          <legend>Téléphone</legend>
+          <div class="col-xs-6 textCenter">
+            Mathieu: 06.00.00.00.00
+          </div>
+          <div class="col-xs-6 textCenter">
+            Delphine: 06.00.00.00.00
+          </div>
+        </fieldset>
+
+        <section class="row textCenter">
+          <p class="col-xs-12">© All Right Reserved - 2017</p>
+          <p class="col-xs-12">Olivia Py-Cz  |&nbsp;
+            <a href="https://github.com/oliviapycz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/olivia-peny-coblentz/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </p>
+
+        </section>
+      </article>
+
+    </footer>
+    <!--- END FOOTER ------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery-3.2.0.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://use.fontawesome.com/d2bc0d5b6e.js"></script>
+
+
+</body></html>
